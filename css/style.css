@@ -1,3 +1,143 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EDEFEC;
+  font-weight: 600;
+  color: #55565A;
+}
+
+header {
+  text-align: center;
+}
+
+header p {
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
 h1 {
-  color: salmon;
+  font-size: 200%;
+  margin: 60px 0 15px 0;
+}
+
+.guidebooksPhotos {
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.guidebooksPhotos .left {
+  height: 600px;
+  width: 500px;
+  margin-right: 25px;
+  background-image: url("../img/san-francisco.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 220%;
+  line-height: 600px;
+}
+
+.guidebooksPhotos .middle {
+  height: 600px;
+  width: 500px;
+  margin-right: 25px;
+  background-image: url("../img/new-york.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 240%;
+  line-height: 600px;
+}
+
+.guidebooksPhotos .right {
+  height: 600px;
+  width: 500px;
+  background-image: url("../img/london.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 240%;
+  line-height: 600px;
+}
+
+.destinationsPhotos {
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.destinationsPhotos .left {
+  height: 600px;
+  width: 500px;
+  margin-right: 25px;
+  background-image: url("../img/napa.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 220%;
+  line-height: 600px;
+}
+
+.destinationsPhotos .middle {
+  height: 600px;
+  width: 500px;
+  margin-right: 25px;
+  background-image: url("../img/sonoma.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 240%;
+  line-height: 600px;
+}
+
+.destinationsPhotos .right {
+  height: 600px;
+  width: 500px;
+  background-image: url("../img/san-francisco-2.jpg");
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  color: white;
+  font-size: 240%;
+  line-height: 600px;
+}
+
+.button {
+  text-align:center;
+  font-family: inherit;
+  margin-top: 30px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.95em;
+  color:inherit;
+  background-color: white;
+  font-weight: bold;
+  padding: 12px 85px 12px 85px;
+  border: 1px solid #aaa;
+}
+
+.destinationsButton {
+  margin: 30px 0 50px 0;
+
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }

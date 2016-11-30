@@ -31,8 +31,8 @@ h1 {
   margin-right: 25px;
   background-image: url("../img/san-francisco.jpg");
   background-size: cover;
-  text-align: center;
-  vertical-align: middle;
+  /*text-align: center;*/
+  /*vertical-align: middle;*/
   float: left;
   color: white;
   font-size: 220%;
